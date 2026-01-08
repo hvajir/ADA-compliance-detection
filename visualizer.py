@@ -17,7 +17,7 @@ from pathlib import Path
 
 import config
 from object_detector import DetectionResult
-from compliance_analyzer import ViolationResult
+from base_analyzer import ViolationResult
 
 
 class ViolationVisualizer:
