@@ -1,0 +1,49 @@
+{
+  "image_path": "/home/claude/ada_compliance_system/test_images/test_store_entrance.jpg",
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "detection_summary": {
+    "total_detections": 1,
+    "ada_relevant_detections": 1,
+    "total_violations": 1
+  },
+  "detections": [
+    {
+      "class_name": "car",
+      "confidence": 0.65,
+      "bbox": [
+        98,
+        198,
+        460,
+        205
+      ],
+      "center": [
+        328,
+        300
+      ]
+    }
+  ],
+  "violations_by_detection": {
+    "detection_0": {
+      "object": "car",
+      "bbox": [
+        98,
+        198,
+        460,
+        205
+      ],
+      "violations": [
+        {
+          "type": "Signage",
+          "severity": "Critical",
+          "ada_code": "502.6",
+          "description": "Missing or inadequate accessible parking signage",
+          "recommendation": "Install International Symbol of Accessibility sign at 60 inches minimum height",
+          "confidence": 0.8
+        }
+      ]
+    }
+  }
+}

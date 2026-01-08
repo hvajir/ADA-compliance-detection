@@ -1,0 +1,21 @@
+{
+  "detection_0": {
+    "object": "car",
+    "bbox": [
+      199,
+      49,
+      403,
+      73
+    ],
+    "violations": [
+      {
+        "type": "Signage",
+        "severity": "Critical",
+        "ada_code": "502.6",
+        "description": "Missing or inadequate accessible parking signage",
+        "recommendation": "Install International Symbol of Accessibility sign at 60 inches minimum height",
+        "confidence": 0.8
+      }
+    ]
+  }
+}
