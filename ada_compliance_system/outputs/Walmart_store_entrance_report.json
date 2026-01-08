@@ -1,0 +1,55 @@
+{
+  "image": "/Users/hardivajir/Downloads/ada_compliance_system/test_images/Walmart_store_entrance.jpg",
+  "dimensions": {
+    "width": 640,
+    "height": 290
+  },
+  "detections": 3,
+  "violations": 1,
+  "severity_breakdown": {
+    "critical": 0,
+    "moderate": 1,
+    "minor": 0
+  },
+  "detailed_results": {
+    "detection_0": {
+      "object": "chair",
+      "bbox": [
+        27,
+        201,
+        39,
+        38
+      ],
+      "violations": [
+        {
+          "type": "Obstruction",
+          "severity": "Moderate",
+          "ada_code": "403.5.1",
+          "description": "Object may be obstructing the required 36-inch clear pathway width",
+          "recommendation": "Relocate object to maintain minimum 36-inch clear pathway",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "detection_1": {
+      "object": "person",
+      "bbox": [
+        224,
+        163,
+        31,
+        57
+      ],
+      "violations": []
+    },
+    "detection_2": {
+      "object": "potted plant",
+      "bbox": [
+        114,
+        181,
+        50,
+        57
+      ],
+      "violations": []
+    }
+  }
+}

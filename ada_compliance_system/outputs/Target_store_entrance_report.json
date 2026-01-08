@@ -1,0 +1,26 @@
+{
+  "image": "/Users/hardivajir/Downloads/ada_compliance_system/test_images/Target_store_entrance.jpg",
+  "dimensions": {
+    "width": 640,
+    "height": 390
+  },
+  "detections": 1,
+  "violations": 0,
+  "severity_breakdown": {
+    "critical": 0,
+    "moderate": 0,
+    "minor": 0
+  },
+  "detailed_results": {
+    "detection_0": {
+      "object": "person",
+      "bbox": [
+        316,
+        216,
+        24,
+        95
+      ],
+      "violations": []
+    }
+  }
+}
